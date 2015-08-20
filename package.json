@@ -1,0 +1,22 @@
+{
+  "name": "moneyspell",
+  "version": "0.0.1",
+  "description": "Spell amount of money in words",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/stv_vt/moneyspell.git"
+  },
+  "keywords": [
+    "spell",
+    "money",
+    "amount",
+    "words"
+  ],
+  "author": "Stefan Stefanov",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/stv_vt/moneyspell#readme"
+}
