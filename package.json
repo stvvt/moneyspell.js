@@ -1,6 +1,6 @@
 {
   "name": "moneyspell",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Spell amount of money in words",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/stv_vt/moneyspell.git"
+    "url": "git@github.com:stvvt/moneyspell.js.git"
   },
   "keywords": [
     "spell",
@@ -21,9 +21,12 @@
     "email": "stefan@auxionize.com"
   },
   "license": "MIT",
-  "homepage": "https://bitbucket.org/stv_vt/moneyspell#readme",
+  "homepage": "https://github.com/stvvt/moneyspell.js",
   "devDependencies": {
     "chai": "^3.2.0",
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "numspell": "^0.1.0"
   }
 }
