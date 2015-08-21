@@ -4,7 +4,7 @@
   "description": "Spell amount of money in words",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node_modules/mocha/bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,14 @@
     "amount",
     "words"
   ],
-  "author": "Stefan Stefanov",
+  "author": {
+    "name": "Stefan Stefanov",
+    "email": "stefan@auxionize.com"
+  },
   "license": "MIT",
-  "homepage": "https://bitbucket.org/stv_vt/moneyspell#readme"
+  "homepage": "https://bitbucket.org/stv_vt/moneyspell#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
 }
