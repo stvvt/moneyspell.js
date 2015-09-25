@@ -1,6 +1,6 @@
 {
   "name": "moneyspell",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spell amount of money in words",
   "main": "index.js",
   "scripts": {
