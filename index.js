@@ -5,11 +5,11 @@ module.exports = function (language) {
 		throw new Error('Unknown language');
 	}
 
-	var spell = module.exports[language]
+	var spell = module.exports[language];
 
 	return function (amount, currency) {
 		var whole = Math.floor(amount),
-			fraction = Math.floor(Math.abs(amount - whole)*100);
+			fraction = Math.round(Math.abs(amount - whole)*100);
 
 		return spell(whole, fraction, currency);
 	}
