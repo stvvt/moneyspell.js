@@ -16,3 +16,4 @@ module.exports = function (language) {
 };
 
 module.exports.bg = require('./lib/locales/bg.js');
+module.exports.en = require('./lib/locales/en.js');
